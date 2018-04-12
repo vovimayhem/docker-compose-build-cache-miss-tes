@@ -1,0 +1,10 @@
+version: "3.4"
+
+services:
+
+  # This container runs the test suite of the app:
+  test:
+    image: vovimayhem/docker-compose-build-cache-miss
+    build:
+      context: .
+      dockerfile: Dockerfile

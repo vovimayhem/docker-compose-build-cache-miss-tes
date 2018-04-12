@@ -1,0 +1,7 @@
+# Ignore git files:
+.git*
+
+# Ignore other project files:
+.dockerignore
+docker-compose.yml
+Dockerfile
